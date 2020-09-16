@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #navecolor {
   background-color: #d4d4d4;
   font-size: 30px;
@@ -28,6 +32,15 @@
 #btn {
   margin-left: auto;
   padding-right: 40px;
+  font-size: 20px;
+  margin-top: 13px;
+}
+
+#headerName {
+  font-size: 30px;
+  margin-top: 13px;
+  margin-left: 10px;
+  color: #38637b;
 }
 
 .imgAbout {
@@ -296,12 +309,61 @@ p,
 .contactForm {
   width: 100%;
   height: 350px;
+  position: relative;
 }
 
 #footerLink {
   color: darkcyan;
   font-size: 30px;
   letter-spacing: 1px;
+}
+
+.instaIcon {
+  color: red;
+  float: left;
+  margin-left: 18px;
+  margin-top: -55px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.faceIcon {
+  color: #1451ff;
+  float: left;
+  margin-left: 18px;
+  margin-top: -27px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#insta {
+  text-decoration: none;
+}
+
+#face {
+  text-decoration: none;
+}
+
+.arrowIcon {
+  position: absolute;
+  /* margin-left: 1060px; */
+  bottom: 19px;
+  right: 30px;
+  font-size: 35px;
+  color: #273961;
+  text-decoration: none;
+}
+
+#arfrow {
+  text-decoration: none;
+}
+
+.footerIcons {
+  margin-top: -25px;
+}
+
+#footerC {
+  margin: 0;
 }
 
 @media only screen and (min-width: 314px) {
@@ -335,6 +397,9 @@ p,
     font-size: 20px;
     color: #4e6f82;
     width: 93%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   #moreAboutBtn {
@@ -374,7 +439,8 @@ p,
 
   .contactForm {
     width: 100%;
-    height: 455px;
+    height: 460px;
+    position: relative;
   }
 }
 
@@ -405,6 +471,44 @@ p,
 } */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 414px) {
+  #footerLink {
+    color: darkcyan;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .faceIcon {
+    color: #1451ff;
+    float: left;
+    margin-left: 9px;
+    margin-top: -8px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .instaIcon {
+    color: red;
+    float: left;
+    margin-left: 9px;
+    margin-top: -30px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  #footerC {
+    margin: 0;
+    font-size: 10px;
+  }
+
+  .footer {
+    width: 100%;
+    height: 85px;
+    background-color: #292d3c;
+    border-radius: 5px 5px 0 0;
+  }
+}
+
 @media only screen and (min-width: 600px) {
   #navecolor {
     width: 100%;
@@ -483,6 +587,9 @@ p,
     font-size: 20px;
     line-height: 1.6;
     font-family: "Open Sans", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .aboutContent {
@@ -562,6 +669,9 @@ p,
     font-size: 20px;
     line-height: 1.6;
     font-family: "Open Sans", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .bodySection {
@@ -649,6 +759,9 @@ p,
     font-size: 20px;
     line-height: 1.6;
     font-family: "Open Sans", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .aboutContent {
