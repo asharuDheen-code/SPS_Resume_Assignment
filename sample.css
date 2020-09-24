@@ -450,34 +450,6 @@ p,
     position: relative;
   }
 }
-
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
-  .bodySection {
-    position: relative;
-    width: 100%;
-    height: auto;
-    background-color: #d4d4d4;
-    text-align: center;
-    color: white;
-  }
-
-  .bodyImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 470px;
-    border-radius: 3px;
-    padding-top: 5px;
-    border-radius: 10px;
-  }
-} */
-/* #fullBody {
-    width: 200px;
-  }
-} */
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (max-width: 414px) {
   #footerLink {
     color: darkcyan;
@@ -496,21 +468,21 @@ p,
     cursor: pointer;
     outline: none;
     height: 33px;
-}
+  }
 
-#skillFont {
-  font-size: 22px;
-  font-weight: 500;
-  margin-top: revert;
-  color: #0c6565;
-}
+  #skillFont {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: revert;
+    color: #0c6565;
+  }
 
-#headerName {
-  font-size: 30px;
-  margin-top: -3px;
-  margin-left: 10px;
-  color: #38637b;
-}
+  #headerName {
+    font-size: 30px;
+    margin-top: -3px;
+    margin-left: 10px;
+    color: #38637b;
+  }
 
   .faceIcon {
     color: #1451ff;
@@ -663,15 +635,7 @@ p,
     top: 635px;
     left: 39%;
     font-size: 20px;
-    /* color: #fff;
-      background-color: #3c8671;
-      border:20px solid #18ab29;
-      border-radius: 3px;
-      text-decoration: none;
-      display:inline-block;
-      font-family:Courier New; */
     border-radius: 28px;
-    /* border: 1px solid #18ab29; */
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
@@ -679,7 +643,6 @@ p,
     padding: 16px 31px;
     text-decoration: none;
     background-color: #348386;
-    /* text-shadow:0px 1px 0px #2f6627; */
   }
 
   #fullService {
@@ -691,7 +654,6 @@ p,
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   #navecolor {
     width: 100%;
@@ -725,9 +687,6 @@ p,
     border-radius: 3px;
     padding-top: 5px;
     border-radius: 10px;
-    /* height: 1019px; */
-    /* float: right; */
-    /* margin: 0px 0px 15px 15px; */
   }
 
   .aboutContent {
@@ -757,15 +716,7 @@ p,
     top: 465px;
     left: 29%;
     font-size: 20px;
-    /* color: #fff;
-      background-color: #3c8671;
-      border:20px solid #18ab29;
-      border-radius: 3px;
-      text-decoration: none;
-      display:inline-block;
-      font-family:Courier New; */
     border-radius: 28px;
-    /* border: 1px solid #18ab29; */
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
@@ -773,7 +724,6 @@ p,
     padding: 16px 31px;
     text-decoration: none;
     background-color: #348386;
-    /* text-shadow:0px 1px 0px #2f6627; */
   }
 
   #fullService {
@@ -786,7 +736,6 @@ p,
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   #navecolor {
     width: 100%;
@@ -820,9 +769,6 @@ p,
     border-radius: 3px;
     padding-top: 5px;
     border-radius: 10px;
-    /* height: 1019px; */
-    /* float: right; */
-    /* margin: 0px 0px 15px 15px; */
   }
 
   .bodySection {
@@ -844,15 +790,7 @@ p,
     top: 527px;
     left: 29%;
     font-size: 20px;
-    /* color: #fff;
-      background-color: #3c8671;
-      border:20px solid #18ab29;
-      border-radius: 3px;
-      text-decoration: none;
-      display:inline-block;
-      font-family:Courier New; */
     border-radius: 28px;
-    /* border: 1px solid #18ab29; */
     background-color: #348386;
     display: inline-block;
     cursor: pointer;
@@ -860,7 +798,6 @@ p,
     font-family: Arial;
     padding: 16px 31px;
     text-decoration: none;
-    /* text-shadow:0px 1px 0px #2f6627; */
   }
   #fullService {
     margin-top: 120px;

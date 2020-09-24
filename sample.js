@@ -20,8 +20,9 @@ $(document).ready(function () {
       //var formData = $(this).serializeArray();
       //console.log(formData);
     } else {
+      event.preventDefault();
       alert("Error While submitting");
-    //   console.log("error while submitting");
+      //   console.log("error while submitting");
     }
   });
 
@@ -34,7 +35,13 @@ $(document).ready(function () {
     //console.log("/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;");
     //console.log("FullName : "+fullName);
     // console.log("Email : "+email);
-    if (!emailValidator.test(email)) {
+    if (fullName == "") {
+      alert("Fill Your name...");
+      return false;
+    } else if (fullName.length <= 3) {
+      alert("Please fill Minimum three char...");
+      return false;
+    } else if (!emailValidator.test(email)) {
       alert("Invalid Email ID...!!!!!");
       return false;
     } else if (phone.length !== 10) {
